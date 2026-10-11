@@ -23,18 +23,18 @@ function Contact() {
           </p>
           <div className="mt-8 space-y-3 text-sm">
             <a
-              href="mailto:hello@sourceflow.dev"
+              href="mailto:mausamk249@gmail.com"
               className="inline-flex items-center gap-2 text-ink hover:underline"
             >
-              <Mail className="h-4 w-4" /> hello@sourceflow.dev
+              <Mail className="h-4 w-4" /> mausamk249@gmail.com
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Mausam-Kumari9534"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-ink hover:underline"
             >
-              <Github className="h-4 w-4" /> @sourceflow
+              <Github className="h-4 w-4" /> @Mausam-Kumari9534
             </a>
           </div>
         </div>
