@@ -1,0 +1,2 @@
+# Proxy API requests to the Render backend server
+/api/* https://opensourcescout.onrender.com/api/:splat 200
