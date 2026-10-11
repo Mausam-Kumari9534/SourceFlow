@@ -406,9 +406,9 @@ export class GitHubService {
   public static async getRepository(owner: string, repoName: string): Promise<Repo> {
     const fullName = `${owner}/${repoName}`;
     
-    // Check DB cache first case-insensitively
+    // Check DB cache first
     const cached = await (await getPrismaClient()).repositoryCache.findFirst({
-      where: { fullName: { equals: fullName, mode: 'insensitive' } },
+      where: { fullName },
     });
     
     const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
