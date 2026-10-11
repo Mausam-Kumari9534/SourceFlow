@@ -59,7 +59,7 @@ export function Footer() {
           </p>
           <div className="mt-5 flex items-center gap-2">
             <a
-              href="https://github.com/MausamSR4/SourceFlow"
+              href="https://github.com/Mausam-Kumari9534/SourceFlow"
               target="_blank"
               rel="noopener noreferrer"
               className="grid h-9 w-9 place-items-center rounded-full border border-border text-muted-foreground transition-all hover:-translate-y-0.5 hover:border-ink hover:text-ink"
@@ -113,13 +113,13 @@ export function Footer() {
           <span>© {new Date().getFullYear()} SourceFlow. Crafted for contributors.</span>
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/MausamSR4"
+              href="https://github.com/Mausam-Kumari9534"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 rounded-lg border border-border bg-card px-2.5 py-1 text-ink transition-all hover:-translate-y-0.5 hover:border-ink"
             >
               <Github className="h-3.5 w-3.5" />
-              <span className="font-medium">MausamSR4</span>
+              <span className="font-medium">Mausam-Kumari9534</span>
             </a>
           </div>
         </div>
